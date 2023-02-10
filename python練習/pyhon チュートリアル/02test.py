@@ -1,0 +1,5 @@
+fa_height = eval(input('请输入父亲的身高：'))
+mo_height = eval(input('请输入母亲的身高：'))
+son_height = round((fa_height+mo_height)*0.54,2)
+print('预测儿子的身高是：',son_height)
+print('预测儿子的身高是：',round(son_height,2))
